@@ -12,13 +12,13 @@ git pull
 
 #### www.nginx
 ```command
-cp /var/www.monre/nginx/conf.d/monre.tk.conf /etc/nginx/conf.d/
+cp /var/www.monre/nginx/conf.d/monre.vndev.click.conf /etc/nginx/conf.d/
 ```
 
 ###### create ssl R3 on ubuntu nginx
 ```command
 sudo apt install nginx certbot python3-certbot-nginx -y
-sudo certbot --nginx -d monre.tk
+sudo certbot --nginx -d monre.vndev.click
 ```
 
 ###### pull update
