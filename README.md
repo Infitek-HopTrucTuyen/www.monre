@@ -23,6 +23,6 @@ sudo certbot --nginx -d monre.vndev.click
 
 ###### pull update
 ```command
-cd /var/www.tabca
+cd /var/www.monre
 git pull
 ```
